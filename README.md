@@ -1,13 +1,9 @@
 # Sukebe速報
+ BOT の参加しているサーバーで
+単語リストに含まれているワードを誰かが話すと
+特定のチャンネルに画像を生成して一覧で表示します
  
-簡単で使いやすいようにbootstrapを利用しています
-DiscordのOauth認証等に使ってください
- 
-# デモページ
-1
-https://kenji176.github.io/Discord-OAuth2-redirect-Template/Example.html
 
- 
 
 # Note
  
