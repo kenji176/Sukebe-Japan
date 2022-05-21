@@ -27,7 +27,7 @@ async def on_message(message):
     test = message.content
     if not message.author.bot and not len(msg) == 0 and msg[0] in message.content:
         iconurl = message.author.avatar_url
-        channel = client.get_channel(977486251852709888)  # 投稿するチャンネルID
+        channel = client.get_channel(123456789)  # 投稿するチャンネルID
         user = f"{message.author.name}#{message.author.discriminator}"
         img2 = await loop.run_in_executor(None, img.make_image, iconurl, test, user)
         file = discord.File(img2, filename="sukebe.png")
